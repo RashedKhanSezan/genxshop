@@ -1,6 +1,6 @@
-# GenxShop - Premium IEM Management System 🎧
+# GenxShop - Premium Product Management System 🎧
 
-GenxShop is a modern, high-performance Flutter application designed for audiophiles and IEM (In-Ear Monitor) enthusiasts. It features a sleek "Glassmorphic" UI and an offline-first architecture to manage products and services seamlessly.
+GenxShop is a modern, high-performance Flutter application features a sleek "Glassmorphic" UI and an offline-first architecture to manage products and services seamlessly.
 
 ---
 
