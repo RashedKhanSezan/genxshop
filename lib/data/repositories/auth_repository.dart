@@ -9,4 +9,8 @@ class AuthRepository {
   Future<LoginResponse> login(String email, String password) {
     return remote.login(email, password);
   }
+
+  Future<void> register(String name, String email, String password) {
+    return remote.register(name, email, password);
+  }
 }
