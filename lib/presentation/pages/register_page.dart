@@ -21,13 +21,10 @@ class RegisterPage extends StatelessWidget {
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
               const SizedBox(height: 20),
-             
               _buildBackButton(),
               const SizedBox(height: 30),
-
-            
               const Text(
-                "Welcome to Eduline",
+                "Welcome to kiwi",
                 style: TextStyle(
                     fontSize: 28,
                     fontWeight: FontWeight.w800,
@@ -35,38 +32,25 @@ class RegisterPage extends StatelessWidget {
               ),
               const SizedBox(height: 12),
               const Text(
-                "Let's join to Eduline learning ecosystem & meet our professional mentor. It's Free!",
+                "Listen It's Free!",
                 style: TextStyle(
                     fontSize: 15, color: Color(0xFF6B7280), height: 1.5),
               ),
               const SizedBox(height: 40),
-
-              
               _fieldLabel("Email Address"),
               _buildTextField(emailController, "ras*****@gmail.com"),
-
               _fieldLabel("Full Name"),
               _buildTextField(nameController, "Ras** K**n"),
-
               _fieldLabel("Password"),
               _buildTextField(passwordController, "••••••••",
                   obscure: true, suffix: Icons.visibility_off_outlined),
-
               const SizedBox(height: 15),
-
-             
               _buildStrengthIndicator(),
-
               const SizedBox(height: 12),
-
-             
               _buildValidationItem(
                   "At least 8 characters with a combination of letters and numbers",
                   true),
-
               const SizedBox(height: 40),
-
-             
               Obx(() => controller.isLoading.value
                   ? const Center(child: CircularProgressIndicator())
                   : SizedBox(
@@ -94,9 +78,7 @@ class RegisterPage extends StatelessWidget {
                                 color: Colors.white)),
                       ),
                     )),
-
               const SizedBox(height: 25),
-
               Row(
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [

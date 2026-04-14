@@ -10,7 +10,7 @@ class ProductListPage extends GetView<ProductController> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: const Color(0xFF246BFE), 
+      backgroundColor: const Color(0xFF246BFE),
       body: SafeArea(
         child: Column(
           children: [
@@ -148,7 +148,6 @@ class ProductListPage extends GetView<ProductController> {
       child: ElevatedButton(
         onPressed: () {
           Get.toNamed(AppRoutes.productForm);
-          Get.back();
         },
         style: ElevatedButton.styleFrom(
           backgroundColor: const Color(0xFF246BFE),
