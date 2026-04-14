@@ -1,4 +1,4 @@
-# GenxShop - Premium Product Management System 🎧
+# GenxShop - Premium Product Management System 
 
 GenxShop is a modern, high-performance Flutter application features a sleek "Glassmorphic" UI and an offline-first architecture to manage products and services seamlessly.
 
@@ -35,6 +35,23 @@ This project follows **Clean Architecture** principles to ensure scalability and
 * **Data Layer**: Handles raw data through `DataSources` (Remote API & Local Hive) and `Repositories` (Logic for switching between Network/Cache).
 * **Presentation Layer**: Contains `Pages` (UI), `Controllers` (Business Logic), and `Bindings` (Dependency Injection).
 * **Route Management**: Centralized navigation handling in `AppPages` and `AppRoutes`.
+
+---
+
+## 📸 Screenshots
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/RashedKhanSezan/genxshop/main/assets/images/Screenshot01.png" width="24%" alt="Login Screen" />
+  <img src="https://raw.githubusercontent.com/RashedKhanSezan/genxshop/main/assets/images/Screenshot02.png" width="24%" alt="Register Screen" />
+  <img src="https://raw.githubusercontent.com/RashedKhanSezan/genxshop/main/assets/images/Screenshot03.png" width="24%" alt="Verify Screen" />
+  <img src="https://raw.githubusercontent.com/RashedKhanSezan/genxshop/main/assets/images/Screenshot04.png" width="24%" alt="Success" />
+</p>
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/RashedKhanSezan/genxshop/main/assets/images/Screenshot05.png" width="25%" alt="ListPage Screen" />
+  <img src="https://raw.githubusercontent.com/RashedKhanSezan/genxshop/main/assets/images/Screenshot06.png" width="25%" alt="DetailsPage Screen" />
+  <img src="https://raw.githubusercontent.com/RashedKhanSezan/genxshop/main/assets/images/Screenshot07.png" width="25%" alt="EditForm Page" />
+</p>
 
 ---
 
